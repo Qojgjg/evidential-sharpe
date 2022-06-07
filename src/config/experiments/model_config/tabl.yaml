@@ -1,0 +1,3 @@
+_target_: src.modeling.model.tabl.TABLModel
+topology: [[60, 10], [120, 50]]
+dimension_order: 'spatial-temporal'

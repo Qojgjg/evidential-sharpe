@@ -1,0 +1,20 @@
+defaults:
+  - _self_
+  - data_config: btc_1h_4folds
+  - feature_config: full_feature
+  - dataloader_config: dataloader_conf
+  - model_config: edl_lstm
+  - loss_config: EDLLoss
+  - train_config: cost
+  - non_config
+  - override hydra/job_logging: colorlog
+  - override hydra/hydra_logging: colorlog
+
+nb_runs: 1
+
+hydra:
+  run:
+    dir: ./output/experiments/${hydra.job.name}/${hydra.job.override_dirname}
+  sweep:
+    dir: ./output/experiments/${now:%Y-%m-%d_%H-%M-%S}
+    subdir: ${hydra.job.override_dirname}

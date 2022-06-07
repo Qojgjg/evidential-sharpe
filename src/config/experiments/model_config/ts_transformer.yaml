@@ -1,0 +1,14 @@
+_target_: src.modeling.model.ts_transformer.TSTransformerEncoderClassiregressor
+feat_dim: 6
+max_len: 48
+d_model: 16
+n_heads: 8
+num_layers: 1
+dim_feedforward: 64
+num_classes: 2
+dropout: 0.1
+pos_encoding: 'fixed'
+activation: 'gelu'
+norm: 'BatchNorm'
+freeze: False
+dimension_order: 'temporal-spatial'

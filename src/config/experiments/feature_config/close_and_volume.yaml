@@ -1,0 +1,12 @@
+_target_: src.data.dataset.LongShortDataset
+feature_dict:
+  open: False
+  high: False
+  close: True
+  low: False
+  volume: True
+nb_total_feature: 3
+lb_wn_size: 48
+no_wn_size: 12
+add_channel_dim: False
+normalization_scheme: z_score_block

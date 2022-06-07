@@ -1,0 +1,4 @@
+_target_: src.modeling.model.edl_lstm.EDLLSTM
+hidden_dim: 64
+nb_layer: 1
+dimension_order: 'temporal-spatial'

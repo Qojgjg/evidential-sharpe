@@ -1,0 +1,3 @@
+_target_: src.modeling.model.bl.BilinearModel
+topology: [[32, 24], [32, 12]]  # Need to add the last layer when building the model.
+dimension_order: 'spatial-temporal'

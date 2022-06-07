@@ -1,0 +1,2 @@
+_target_: src.modeling.solver.loss.EDLLoss
+annealing_step: 10

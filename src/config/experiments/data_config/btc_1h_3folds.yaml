@@ -1,0 +1,11 @@
+period: 1 # In hour.
+asset_name: BTC
+data_path: D:/uncertainty_sharpe/evidential_deep_learning/market_data/btc_15052020_31122021/btc_1h.csv
+folds_setup: [[[0, 9945], [9945, 11381]],
+              [[0, 11381], [11381, 12819]],
+              [[0, 12819], [12819, 14259]]]
+nb_validation_fold: 3
+validation_length_in_day: 60
+first_train_dataset_length_in_day: 415
+nb_asset: 3
+allocation_asset: 2

@@ -1,0 +1,4 @@
+_target_: src.data.build_dataloader.build_dataloader
+batch_size: 64
+shuffle: False
+drop_last: False
